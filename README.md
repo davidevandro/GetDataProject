@@ -26,4 +26,4 @@ The script, then, put descriptive names in the variables with these rules:
 * z - zaxis
 * bodybody - body (this was necessary since the last variables has bodybody but the original codebook don't tell about it)
 
-Then it rearranges the cleaned data set in a tidy data set with the average of each variable for each activity and each subject. For this, it assumes that you have the package reshape2, presented in the course. The last thing it does is to save the tidy data set in a file called tidyData.txt using as separator a space.
+Then it rearranges the cleaned data set in a tidy data set with the average of each variable for each activity and each subject. For this, it assumes that you have the package reshape2, presented in the course. The last thing it does is to save the tidy data set in a file called tidyData.txt using as separator a tabular.
