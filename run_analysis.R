@@ -51,3 +51,4 @@ names(cleanData) <- newNames
 library(reshape2)
 auxiliaryData <- melt(cleanData, id = c("subject","activity"), measure.vars = newNames[-1:-2])
 tidyData <- dcast(auxiliaryData, subject + activity ~ variable, mean)
+write.table(tidyData,"tidyData.txt")
